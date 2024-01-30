@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" >
+
+        <title>Clear Vision</title>
+
+        <link rel="stylesheet" href="../Assignment 2/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js">
+        </script>
+
+
+    </head>
+    <body>
+      <header>
+        <section id="nav-bar">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#frames">Frames</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#signin">Sign In Offers</a>
+                </li>
+              </ul>   
+            </div>
+          </nav>  
+        </section>
+      </header>
+        <section id="home">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <p class="promo-title">Welcome to Clear Vision</p>
+                <p>Empowering individuals to see the world with clarity and confidence.</p>
+                <div class="col-md-6 text-center">
+                  <img src="./images/Eyes.jpeg" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="frames">
+          <div class="container" class="grid-container">
+            <h3 class="title">Frames</h3>
+            <div class="row">
+              <div class="column col-md-4">
+                <img src="./images/frame1.jpg" class="frames-img"/>
+                <h4>$35</h4>
+              </div>
+              <div class="column col-md-4">
+                <img src="./images/frame2.jpg" class="frames-img"/>
+                <h4>$45</h4>
+              </div>
+              <div class="column col-md-4">
+                <img src="./images/frame3.jpg" class="frames-img"/>
+                <h4>$50</h4>
+              </div>
+              <div class="column col-md-4">
+                <img src="./images/frame4.jpg" class="frames-img"/>
+                <h4>$40</h4>
+              </div>
+              <div class="column col-md-4">
+                <img src="./images/frame5.jpg" class="frames-img"/>
+                <h4>$35</h4>
+              </div>
+              <div class="column col-md-4">
+                <img src="./images/frame6.jpg" class="frames-img"/>
+                <h4>$55</h4>
+              </div>
+            </div><br>
+              <a class="morestyle" href="https.clearvision.com">Click Here for more Styles</a><br><br>
+            </section>
+
+            
+             <section id="about">
+              <div class="container">
+                <div class="row">
+                <h3 class="about">About Us</h3>
+                  <div> 
+                    <p>Clear Vision dedicates to helping people all over the world to have a foresight vision. We provide fashionable, innovative, and top-graded quality eyewear.
+                       With our fast delivery system at an affordable price, we guarantee you an exceeding web-shopping experience every time.</p>
+                    <p>For anyone with a need for glasses, wearing a pair of affordable, well-crafted glasses should not be a difficult task.
+                       Clear Vision just offers an opportunity for this dying needs of yours. Whether you're a student, a worker, a fashionista,
+                        or a parent, we can find the exclusive glasses for you.</p>
+                    <p> Our mission is to offer a curated collection of high-quality eyeglasses, ranging from classic designs to the latest fashion trends, ensuring that you find the perfect frames 
+                      to suit your individual taste and lifestyle. At Clear Vision, we understand the importance of both fashion and functionality, and our carefully selected range includes eyeglasses crafted 
+                      from premium materials to guarantee durability and comfort. Our dedicated team of eyewear enthusiasts is committed to delivering an exceptional shopping experience, and we take pride in 
+                      helping you express yourself through the perfect pair of glasses. Explore our diverse selection, and let us be your go-to destination for all your eyewear needs. Your vision, your style
+                       discover it at Clear Vision</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+             
+              
+              <section id="signin">
+                <div class="container" id="formcontainer">
+                  <h3>Sign In With Us Today!</h3><br>
+                  <p>Enter your email id and get a link for exclusive offers and claim them!</p> <br>
+                  <div class="row">
+                    <div class="col-md-17 mx-auto">
+                      <form id="signin-form">
+                        <div class="sign-grp">
+                        <label for="name">Name :</label>
+                        <input type="text" id="name" name="name" class="form-signin" required>
+                        </div>
+                        <div class="sign-grp">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" class="form-signin" required>
+                        </div>
+                        <div class="sign-grp">
+                         <input type="submit" value="submit" id="submit" class="form-signin">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                  
+                      
+                <br>
+                <br>
+                <br>
+                <br>
+              
+                <footer class="container">
+                        <p style="font-weight: 200;">&copy; 2024 Clear Vision Website</p>
+                </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
+</html>
